@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>js输出</title>
+</head>
+
+<body>
+	<p id="one"></p>
+	<script type="text/javascript">
+		/*
+		1. ouput
+		window.alert() 警告框
+		document.write() 写到 HTML 文档中
+		innerHTML 写到 HTML 元素 , p标签里面
+		*/
+
+		// console.log() //写到浏览器的控制台
+		// alert("helloworld");
+
+		// document.write('helloworld');
+
+		// document.getElementById('one').innerHTML = "this is p";
+
+		// console.log(123)
+
+		/* 		var a=1;
+				function b() {
+					var c=1;
+				}
+		 */
+
+		 prompt('please input a number');
+		 alert('the result is ');
+		 
+
+	</script>
+
+	<!-- 行内式 适合on事件 少量特殊-->
+	<input type="button" value="click me" onclick="alert('hello')" />
+
+	<!-- 内嵌式 中等量 -->
+	<script>alert('hello world')</script> 
+
+	<!-- 外部js  适合大量 -->
+	<script src="1learnDatatype.js"></script> 
+
+	
+
+</body>
+
+</html>
