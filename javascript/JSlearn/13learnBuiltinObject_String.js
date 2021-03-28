@@ -103,9 +103,17 @@ print(w.replace(/sd/gi, '???'))//g:global, i:ignore case
 
 
 //7 string 转换为 数组  split('分隔符')  之前的join 是把数组转为 字符串
-let e='asd,WET oj, iii'
-print(e.split(' '))
-print(e.split(','))
+let e='asd,WET     oj, iii'
+print(e.split(/\s+/g))
+// print(e.split(','))
+
+
+
+var str   = "my    car is red";
+var stringArray = str.split(/\s+/gi);
+
+console.log(stringArray);
+
 
 
 
