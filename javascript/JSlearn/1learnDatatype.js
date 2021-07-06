@@ -35,6 +35,7 @@ var a1 = 4,
 
 /**
  * FIVE 基本数据type
+ * 
  * 字符串 (String)
  * 数字 (Number)
  * 布尔 (Boolean)
